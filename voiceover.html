@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html lang="en"><!-- InstanceBegin template="/Templates/MainTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Nicole Oliver</title>
+<!-- InstanceEndEditable -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="bootstrap/2.3.2/responsive/css/bootstrap.min.css"  rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head> 
+<body>
+<div class="container-fluid">
+
+	<div class="main">  
+        <div class="masthead">
+            <h3 class="muted logo">Nicole Oliver</h3>
+            
+            <ul class="nav nav-pills pull-right">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="media.html">media</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="oncamera.html">on camera</a></li>
+                    <li><a href="animation.html">animation</a></li>
+                    <li><a href="voiceover.html">voice over</a></li>
+                    <li><a href="charity.html">charity</a></li>
+                    <li><a href="autograph.html">autograph</a></li>
+                    <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+      
+		<div class="main-content">
+<!-- InstanceBeginEditable name="body" -->
+
+
+    <div class="row-fluid">
+      <div class="span12">
+        <h1>Voice Over / Narration</h1>
+        <hr/>
+ 
+ 
+        <div class="well voice">
+            <audio controls>
+              <source src="audio/n_oliver_commercial_april_15_13.ogg" type="audio/ogg">
+              <source src="audio/n_oliver_commercial_april_15_13.mp3" type="audio/mpeg">
+              <embed src="audio/n_oliver_commercial_april_15_13.mp3" width="255" height="32"></embed> 	
+            </audio>
+            <a href="audio/n_oliver_commercial_april_15_13.mp3">
+                <p>Download Commercial Demo Reel (mp3 - 3.5mb download)</p>
+            </a>
+		</div>
+        <div class="well voice">
+            <audio controls>
+              <source src="audio/n_oliver_narration_april_1_13.ogg" type="audio/ogg">
+              <source src="audio/n_oliver_narration_april_1_13.mp3" type="audio/mpeg">
+              <embed src="audio/n_oliver_narration_april_1_13.mp3" width="255" height="32"></embed> 	
+            </audio>
+            <a href="audio/n_oliver_narration_april_15_13.mp3">
+                <p>Download Narration Demo Reel (mp3 - 8.5mb download)</p>
+            </a>
+		</div>
+        
+
+        <a href="http://www.imdb.com/name/nm0646955/" target="_blank"><p>Voice-Over Credits (IMDB)</p></a>
+
+         <br/><br/><br/>
+
+                    
+        </div>
+     </div>
+
+         <hr/>
+
+
+<!-- InstanceEndEditable -->
+        </div>
+
+        <div class="footer">
+            <p>&copy; Nicole Oliver 2016 </p>
+            <p>Developed by <a href="http://www.ermakova.ca/" target="_blank" style="color:#633">Nadia Ermakova</a></p>
+        </div>
+        
+    </div>
+</div>
+<div id="main-left-shadow"></div>
+<div id="main-right-shadow"></div>
+</body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+	function fixShadow(){
+		var win = $(window);
+		var root = $(document.documentElement);
+		var bodyElm = $(document.body);
+		var main = $(".main");
+		var height = Math.max(Math.max(win.height(), root.height()), bodyElm.height());
+		var width = Math.floor((root.width() - main.width()) / 2);
+		$("#main-left-shadow").css({width: width, height: height,visibility: "visible"});
+		$("#main-right-shadow").css({width: width, height: height,visibility: "visible"});
+	}
+	fixShadow();
+	setTimeout(fixShadow, 500);
+	setTimeout(fixShadow, 5000);
+	
+});
+</script>
+<!-- InstanceBeginEditable name="footerscripts" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceEnd --></html>

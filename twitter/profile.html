@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html style="background-color: transparent; margin:0; padding:0;">
+<head>
+	<title>Nicole Oliver - Twitter Profile</title>
+    <base target="_parent">
+<style>
+.profile-header.profile-card {
+	width: 100%;
+}
+.clearfix::after, .control-group::after, .stream-item > div::after, .module::after, .follow-card header::after, .follow-bar::after, .search-header::after, .tweet-form::after, .modal-footer::after, .local-trends-breadcrumb::after, .wrapper::after, .expanded-content::after, .stream-item::after {
+	clear: both;
+}
+.clearfix::before, .clearfix::after, .control-group::before, .control-group::after, .stream-item > div::before, .stream-item > div::after, .module::after, .module::before, .follow-card header::after, .follow-card header::before, .follow-bar::after, .follow-bar::before, .search-header::after, .search-header::before, .tweet-form::after, .tweet-form::before, .modal-footer::after, .modal-footer::before, .local-trends-breadcrumb::after, .local-trends-breadcrumb::before, .input-prepend .add-on, .input-append .add-on, .wrapper::after, .wrapper::before, .expanded-content::before, .expanded-content::after, .stream-item::before, .stream-item::after {
+	display: table;
+	content: " ";
+}
+.module {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-shadow: 0px 1px 0px #fff;
+}
+.module {
+	border-radius: 6px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	position: relative;
+	background-clip: padding-box;
+}
+.white.wrapper {
+	background: url("https://abs.twimg.com/a/1379631158/t1/img/wash-white-30.png");
+}
+.wrapper {
+	padding-bottom: 0px;
+}
+.wrapper, .wrapper-narrow, .wrapper-permalink {
+	background: url("../img/wash-white-30.png");
+	margin: 0px auto;
+	padding: 54px 14px 15px;
+	width: 837px;
+	position: relative;
+	min-height: 100%;
+}
+body {
+	background-position: left 40px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: rgb(235, 235, 235);
+}	
+.wrapper-profile .profile-header.profile-card .profile-header-inner {
+	background-image: url("https://pbs.twimg.com/profile_banners/150046236/1371087848/web");
+}
+.profile-header.profile-card .profile-header-inner {
+	padding: 0px;
+	height: 260px;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: inset 0px -1px 0px rgba(0,0,0,0.1);
+	background-repeat: no-repeat;
+	background-color: rgb(68, 68, 68);
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1);
+}
+.module ul:first-child li:first-child .list-link, .module :first-child.flex-module, .module :first-child.contrast-flex-module {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.profile-card .flex-module {
+	background-color: rgb(255, 255, 255);
+}
+.module .flex-module {
+	padding: 12px;
+	line-height: 16px;
+	background-color: rgb(249, 249, 249);
+}
+.module ul:last-child li:last-child .list-link, .module ul:last-child li.last-item .list-link, .module .last.list-link, .module :last-child.flex-module, .module :last-child.contrast-flex-module {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.profile-banner-footer.flex-module {
+	padding: 0px;
+}
+.profile-header.profile-card .stats {
+	margin: 0px;
+	float: left;
+}
+.profile-card .stats {
+	margin: 5px 0px 0px;
+	border-top-color: currentColor;
+	border-bottom-color: currentColor;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-top-style: none;
+	border-bottom-style: none;
+}
+.stats {
+	overflow: hidden;
+	border-top-color: rgb(232, 232, 232);
+	border-bottom-color: rgb(232, 232, 232);
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+ul {
+	list-style: none;
+}
+ul, ol {
+	margin: 0px;
+	padding: 0px;
+}
+.profile-banner-footer .user-actions, .profile-banner-footer .dm-button, .profile-banner-footer .inline-edit-profile-btn {
+	margin: 10px 10px 10px 0px;
+	float: right;
+}
+.user-actions {
+	position: relative;
+}
+.btn-group {
+	position: relative;
+}
+.follow-button, .email-follow-button, .email-follow-state-button {
+	padding: 0px;
+	margin-right: 3px;
+}
+.btn {
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(221, 221, 221));
+	background-repeat: repeat-x;
+	background-color: rgb(221, 221, 221);
+}
+.btn {
+	padding: 5px 10px;
+	border-radius: 4px;
+	border: 1px solid rgb(204, 204, 204);
+	color: rgb(51, 51, 51);
+	line-height: 18px;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0px 1px 0px rgba(255,255,255,0.5);
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.5);
+	background-repeat: no-repeat;
+	background-color: rgb(204, 204, 204);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+}
+button {
+	border: 0px currentColor;
+}
+button {
+	margin: 0px;
+}
+button {
+	border: 0px currentColor;
+}
+.not-following .follow-button .follow-text, .following .follow-button .following-text, .following .follow-button:hover .unfollow-text, .following .cancel-hover-style.follow-button:hover .following-text, .blocked .follow-button .blocked-text, .blocked .follow-button:hover .unblock-text, .pending .follow-button .pending-text, .pending .follow-button:hover .cancel-text, .pending .cancel-hover-style.follow-button:hover .pending-text, .email-follow-button .email-follow-text, .email-following .email-follow-button .email-following-text, .email-following .email-follow-button:hover .email-unfollow-text, .email-following .cancel-hover-style.email-follow-button:hover .email-following-text, .email-follow-disabled .email-follow-state-button .email-follow-text, .email-follow-enabled .email-follow-state-button .email-following-text, .email-follow-enabled .email-follow-state-button:hover .disable-email-follow-text, .email-follow-disabled .explanation .email-follow-text, .email-follow-enabled .explanation .email-following-text {
+	display: block;
+}
+.email-follow-state-button .button-text, .follow-button .button-text {
+	padding: 5px 7px;
+	text-align: center;
+	display: none;
+	min-width: 70px;
+}
+.follow {
+	background-position: 0px -430px;
+	width: 18px;
+	height: 14px;
+}
+.follow, .follow-white {
+	margin-top: 2px;
+}
+i, .icon {
+	background-position: 0px 0px;
+	vertical-align: text-top;
+	display: inline-block;
+	background-image: url("../img/twitter_web_sprite_icons.png");
+	background-repeat: no-repeat;
+}
+.stats li {
+	display: inline;
+}
+.profile-header.profile-card .stats a {
+	padding: 10px 30px 8px 12px;
+	border-top-color: currentColor;
+	border-left-color: rgb(232, 232, 232);
+	border-top-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-left-style: solid;
+	float: left;
+	border-color: rgb(232, 232, 232) currentColor currentColor;
+	padding: 6px 12px 6px 0px;
+	float: none;
+	display: block;
+}
+.profile-card.profile-header .stats a {
+	float: left;
+	padding: 10px 30px 8px 12px;
+	border-left: 1px solid #e8e8e8;
+	border-top: 0;
+}
+.stats a {
+	padding: 7px 12px;
+	color: rgb(153, 153, 153);
+	text-transform: uppercase;
+	line-height: 16px;
+}
+.profile-card .stats a {
+	border-width: 1px 0px 0px;
+	border-style: solid none none;
+	font-size: 10px;
+	border-left-color: rgb(232, 232, 232);
+	border-left-width: 1px;
+	border-left-style: solid;
+	float: left;
+}
+a, .btn-link, .btn-link:focus, .pretty-link b, .pretty-link:hover s, .pretty-link:hover b, .pretty-link:focus s, .pretty-link:focus b, .metadata a:hover, .metadata a:focus, .account-group:hover .fullname, .account-group:focus .fullname, .account-summary:focus .fullname, .stats a:hover, .stats a:hover strong, .stats a:focus, .stats a:focus strong, .profile-modal-header .fullname a:hover, .profile-modal-header .username a:hover, .profile-modal-header .fullname a:focus, .profile-modal-header .username a:focus, .story-article:hover .metadata, .story-article .metadata a:focus, .find-friends-sources li:hover .source, .stream-item a:hover .fullname, .stream-item a:focus .fullname, .stream-item .view-all-supplements:hover, .stream-item .view-all-supplements:focus, .tweet .time a:hover, .tweet .time a:focus, .tweet-actions a, .tweet .with-icn.details b, .stream-item:hover .original-tweet .expand-action-wrapper, .stream-item .focus.original-tweet .expand-action-wrapper, .original-tweet.opened-tweet .expand-action-wrapper, .stream-item:hover .original-tweet .details b, .stream-item .focus.original-tweet .details b, .open.stream-item .original-tweet .details b, .simple-tweet:hover .details b, .focus.simple-tweet .details b, .open.simple-tweet .details b, .simple-tweet:hover .details .expand-action-wrapper, .focus.simple-tweet .details .expand-action-wrapper, .open.simple-tweet .details .collapse-action-wrapper, .simple-tweet:hover .details .simple-details-link, .focus.simple-tweet .details .simple-details-link, .client-and-actions a:hover, .client-and-actions a:focus, .dismiss-promoted:hover b, .tweet .context .pretty-link:hover s, .tweet .context .pretty-link:hover b, .tweet .context .pretty-link:focus s, .tweet .context .pretty-link:focus b, .list .username a:hover, .list .username a:focus, .list-membership-container .create-a-list, .list-membership-container .create-a-list:hover, .story-header:hover .view-tweets, .card .list-details a:hover, .card .list-details a:focus, .card .card-body:hover .attribution, .card .card-body .attribution:focus, .events-card .card-body:hover .attribution, .events-card .card-body .attribution:focus, .new-tweets-bar, .onebox .soccer ul.ticker a:hover, .onebox .soccer ul.ticker a:focus, .discover-item-actions a, .disco_exp_actions_on_btm.disco-stream-item .more-tweet-actions .btn-link, .disco_exp_actions_on_btm_without_stats.disco-stream-item .more-tweet-actions .btn-link, .remove-background-btn, .stream-item-activity-me .latest-tweet .tweet-row a:hover, .stream-item-activity-me .latest-tweet .tweet-row a:focus, .stream-item-activity-me .latest-tweet .tweet-row a:hover b, .stream-item-activity-me .latest-tweet .tweet-row a:focus b {
+	color: rgb(153, 0, 0);
+}
+a {
+	color: rgb(0, 132, 180);
+	text-decoration: none;
+}
+.profile-header.profile-card .stats a strong {
+	display: block;
+}
+.profile-card .stats strong {
+	display: inline;
+}
+.stats a strong {
+	color: rgb(51, 51, 51);
+	font-size: 14px;
+	display: block;
+}
+.profile-header.profile-card .stats li:first-child a {
+	border-left-color: currentColor;
+	border-left-width: 0px;
+	border-left-style: none;
+}
+.profile-card .stats li:first-child a {
+	border-top-color: currentColor;
+	border-top-width: 0px;
+	border-top-style: none;
+}
+.stats li:first-child a {
+	border-left-color: currentColor;
+	border-left-width: 0px;
+	border-left-style: none;
+}
+.stats a:hover, .stats a:focus {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+a:focus {
+	outline: 0px;
+}
+.profile-header-inner-overlay {
+	background: linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.55) 100%);
+	top: 60px;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+}
+.profile-header.profile-card .profile-picture {
+	margin: 20px auto 6px;
+	border-radius: 5px;
+	border: 4px solid rgb(255, 255, 255);
+	width: 73px;
+	height: 73px;
+	display: block;
+	position: relative;
+	z-index: 5;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.25);
+	background-color: rgb(255, 255, 255);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+}
+.profile-card .profile-picture {
+	display: block;
+}
+a.media-thumbnail {
+	outline: 0px;
+	display: inline-block;
+}
+.profile-header .profile-card-inner {
+	margin: auto;
+	width: 85%;
+	float: none;
+	position: relative;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+}
+.profile-card-inner {
+	margin: 0px 0px 0px 12px;
+	width: 50%;
+	float: left;
+}
+.profile-header.profile-card .fullname {
+	font-size: 24px;
+	white-space: nowrap;
+}
+.profile-header .profile-card-inner h1, .profile-header .profile-card-inner h2, .profile-header .profile-card-inner p, .profile-header .profile-card-inner s, .profile-header .profile-card-inner a, .profile-header .profile-card-inner a b, .profile-header .profile-card-inner a:hover s, .profile-header .profile-card-inner a:hover b {
+	color: rgb(255, 255, 255);
+}
+.profile-card .fullname {
+	line-height: 1;
+	font-size: 30px;
+	margin-bottom: 2px;
+}
+.fullname {
+	color: rgb(51, 51, 51);
+	font-weight: bold;
+}
+h1 {
+	line-height: 1;
+	font-size: 24px;
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	color: rgb(51, 51, 51);
+	text-rendering: optimizeLegibility;
+}
+.profile-card .username {
+	color: rgb(119, 119, 119);
+	line-height: 24px;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 1px;
+}
+.username {
+	unicode-bidi: embed;
+	direction: ltr;
+}
+.username, .time, .time a, .metadata, .metadata button.btn-link, .metadata a {
+	color: rgb(153, 153, 153);
+	font-size: 12px;
+}
+h2 {
+	line-height: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.profile-header.profile-card .bio-container {
+	line-height: 18px;
+	font-family: inherit;
+	font-size: 14px;
+	font-style: inherit;
+	font-variant: inherit;
+	font-weight: inherit;
+	margin-bottom: 4px;
+	font-size-adjust: inherit;
+	font-stretch: inherit;
+}
+.profile-header.profile-card .location-and-url {
+	font-size: 14px;
+}
+.profile-card .location-and-url {
+	color: rgb(119, 119, 119);
+	line-height: 18px;
+	font-size: 12px;
+}
+p {
+	margin: 0px;
+}
+.profile-header.profile-card .divider {
+	color: rgb(255, 255, 255);
+}
+.profile-card .divider {
+	padding: 0px 2px;
+	color: rgb(204, 204, 204);
+}
+.location-and-url .url {
+	-ms-word-wrap: break-word;
+}
+.username s, .account-group-inner s {
+	color: rgb(187, 187, 187);
+}
+s, .pretty-link:hover s, .pretty-link:focus s, .stream-item-activity-me .latest-tweet .tweet-row a:hover s, .stream-item-activity-me .latest-tweet .tweet-row a:focus s {
+	color: rgb(193, 102, 102);
+}
+s {
+	text-decoration: none;
+}
+.profile-header.profile-card .avatar {
+	border-radius: 3px;
+	float: none;
+}
+.profile-card .avatar {
+	float: left;
+}
+
+.avatar {
+	border-radius: 5px;
+	width: 48px;
+	height: 48px;
+	-moz-force-broken-image-icon: 1;
+}
+.size73 {
+	border-radius: 5px;
+	width: 73px;
+	height: 73px;
+}
+img {
+	border: 0px currentColor;
+}
+
+</style>
+</head>
+<body style="background-color: transparent; margin:0; padding:0;">
+	                                                                                                                                                           
+		<div class="module profile-card component profile-header profile-page-header" data-component-term="profile_follow_card">
+			<div class="profile-header-inner flex-module clearfix" style="background-image: url('http://pbs.twimg.com/profile_banners/150046236/1371087848');background-size:cover;">
+				<div class="profile-header-inner-overlay"></div>
+
+				<a class="profile-picture media-thumbnail" href="" target="_blank" data-url="" data-resolved-url-large="">
+					<img class="avatar size73" alt="Nicole Oliver">
+				</a>
+
+
+				<div class="profile-card-inner" data-user-id="150046236" data-screen-name="mouthnoize">
+					<h1 class="fullname editable-group">
+						<span class="profile-field">Nicole Oliver</span>
+					</h1>
+
+					<h2 class="username">
+						<span class="screen-name"><s>@</s>mouthnoize</span>
+					</h2>
+					<div class="bio-container editable-group">
+						<p class="bio profile-field">Maker of voices and characters. Reluctant yogi and lover of all things funny. All opinions are my own.</p>
+					</div>
+					<p class="location-and-url">
+						<span class="location-container editable-group">
+							<span class="location profile-field">
+								Vancouver
+							</span>
+						</span>
+						<span class="divider">·</span>
+						<span class="url editable-group">
+							<span class="profile-field">
+								<a title="http://www.nicoleoliver.com" href="http://www.nicoleoliver.com">
+									nicoleoliver.com
+								</a>
+							</span>
+						</span>
+					</p>
+				</div>
+			</div>
+			<div class="flex-module profile-banner-footer clearfix">
+				<div class="default-footer">
+					<ul class="stats js-mini-profile-stats">
+						<li><a class="js-nav" href="https://twitter.com/mouthnoize" data-nav="profile" data-element-term="tweet_stats">  
+							    <strong class="tweets_count">3,870</strong> Tweets
+						    </a></li>
+						<li><a class="js-nav" href="https://twitter.com/mouthnoize/following" data-nav="following" data-element-term="following_stats">  
+								<strong class="friends_count">285</strong> Following
+						    </a></li>
+						<li><a class="js-nav" href="https://twitter.com/mouthnoize/followers" data-nav="followers" data-element-term="follower_stats">  
+								<strong class="followers_count">9,138</strong> Followers
+						    </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+    
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			var modpath = 'http://neservices.azurewebsites.net/nicoleoliver/twitter/';
+
+			function tweetService(request) {
+				return $.ajax({
+					dataType: "json",
+					type: "post",
+					async: false,
+					url: modpath || "/twitter/",
+					data: { request: request },
+					success: function(data, status) {
+					}
+				}).then(function(data) {
+					return data.response;
+				});
+
+			}
+
+			tweetService({
+				"host": "api.twitter.com",
+				"url": "/1.1/users/show.json",
+				"parameters": {
+					"screen_name": "mouthnoize"
+				}
+
+			})
+			.done(function(data) {
+				$(".tweets_count").text(data.statuses_count);
+				$(".friends_count").text(data.friends_count);
+				$(".followers_count").text(data.followers_count);
+				$(".avatar").attr("src",data.profile_image_url);
+
+				var profileLargePicture = data.profile_image_url.replace("_normal","");
+				$(".profile-picture").attr({
+					"href":profileLargePicture,
+					"data-url":profileLargePicture,
+					"data-resolved-url-large":profileLargePicture,
+				});
+
+				if(data.profile_banner_url){
+					var bg = data.profile_banner_url.replace("https://","http://");
+					
+					$(".profile-header-inner").css("background-image","url('"+bg+"')");
+				}
+
+
+			});
+		});
+	</script>
+</html>

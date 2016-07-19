@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="en"><!-- InstanceBegin template="/Templates/MainTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Nicole Oliver</title>
+<!-- InstanceEndEditable -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="bootstrap/2.3.2/responsive/css/bootstrap.min.css"  rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head> 
+<body>
+<div class="container-fluid">
+
+	<div class="main">  
+        <div class="masthead">
+            <h3 class="muted logo">Nicole Oliver</h3>
+            
+            <ul class="nav nav-pills pull-right">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="media.html">media</a></li>
+                    <li><a href="gallery.html">gallery</a></li>
+                    <li><a href="oncamera.html">on camera</a></li>
+                    <li><a href="animation.html">animation</a></li>
+                    <li><a href="voiceover.html">voice over</a></li>
+                    <li><a href="charity.html">charity</a></li>
+                    <li><a href="autograph.html">autograph</a></li>
+                    <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+      
+		<div class="main-content">
+<!-- InstanceBeginEditable name="body" -->
+    <div class="row-fluid">
+      <div class="span12">
+     	<h1>Media</h1>
+      
+		<hr/>
+        
+       
+		<video style="width: 560px" controls poster="images/yp_nexthome.jpg">
+        	<source src="//embed.wistia.com/deliveries/de2ddced41bf9f6a94f03aec5bd81919c138e654/file.mp4" type="video/mp4">
+        </video>
+        <p>Nicole Oliver. <a href="http://nexthome.yp.ca/neighbourhoods/vancouver-fraser-street/1000022/" target="_blank" style="color:#633">www.nexthome.yp.ca</a></p>
+	    <br/><br/>
+
+       	
+       <a href="http://cirh.streamon.fm/listen-pl-1508" target="_blank" style="color:#633"><img src="images/roundhouse_radio.jpg" width="560">
+        <p> Storytellers with Martin Strong. (AUDIO)  <br/>Guest host Tod Maffin greets Nicole Oliver a "successful actor, producer, and director,<br/>
+         she is also a mother, a wife, and role model of our time."</a></p>
+	    <br/><br/>        
+                
+        
+        <iframe width="560" height="315" src="//www.youtube.com/embed/cnAoXWbmq14" frameborder="0" allowfullscreen></iframe>
+        <p>Nicole Oliver. Vancouver Television</p>      
+	    <br/><br/>
+
+
+		<iframe width="560" height="315" src="//www.youtube.com/embed/4kKBwKHIKIY" frameborder="0" allowfullscreen></iframe>
+        <p>Meet the Cast of Littlest Pet Shop.</p>
+		<br/><br/>
+
+
+		<iframe width="560" height="315" src="//www.youtube.com/embed/abJI84VFhkQ" frameborder="0" allowfullscreen></iframe>
+        <p>Moulin Madness on Novus TV</p>
+		<br/><br/>
+
+
+		<iframe width="560" height="315" src="//www.youtube.com/embed/29oJrCsoXgE" frameborder="0" allowfullscreen></iframe>
+        <p style="width: 560px">The Province's Glen Schaefer talks to the celebrants at Cin Cin Restaurant for the Brightlight Pictures VIFF kickoff party.</p>
+		<br/><br/>
+
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/QqysRGcR8Ac" frameborder="0" allowfullscreen></iframe> 
+        <p>KATIE CHATS: M4AM, NICOLE OLIVER & WILLIAM AINSCOUG</p>
+		<br/><br/>
+
+
+        <iframe width="560" height="315" src="//www.youtube.com/embed/tQoPe92XPGU" frameborder="0" allowfullscreen></iframe> 
+        <p>Kids market at Granville Island with Nicole Oliver.</p>
+		<br/><br/>
+
+
+		<iframe width="560" height="315" src="//www.youtube.com/embed/qRwvzUpbDyo" frameborder="0" allowfullscreen></iframe>
+		<p>Breakfast TV with NICOLE OLIVER and WILLIAM AINSCOUGH</p>
+		<br/><br/>
+
+		
+        <iframe width="250" height="200" src="//www.youtube.com/embed/psTzwrhg_1s" frameborder="0" allowfullscreen></iframe>
+		<p>Crash Test Mommy</p>
+
+	   </div>
+    </div>
+    
+    <hr/>
+
+
+<!-- InstanceEndEditable -->
+        </div>
+
+        <div class="footer">
+            <p>&copy; Nicole Oliver 2016 </p>
+            <p>Developed by <a href="http://www.ermakova.ca/" target="_blank" style="color:#633">Nadia Ermakova</a></p>
+        </div>
+        
+    </div>
+</div>
+<div id="main-left-shadow"></div>
+<div id="main-right-shadow"></div>
+</body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+	function fixShadow(){
+		var win = $(window);
+		var root = $(document.documentElement);
+		var bodyElm = $(document.body);
+		var main = $(".main");
+		var height = Math.max(Math.max(win.height(), root.height()), bodyElm.height());
+		var width = Math.floor((root.width() - main.width()) / 2);
+		$("#main-left-shadow").css({width: width, height: height,visibility: "visible"});
+		$("#main-right-shadow").css({width: width, height: height,visibility: "visible"});
+	}
+	fixShadow();
+	setTimeout(fixShadow, 500);
+	setTimeout(fixShadow, 5000);
+	
+});
+</script>
+<!-- InstanceBeginEditable name="footerscripts" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceEnd --></html>
