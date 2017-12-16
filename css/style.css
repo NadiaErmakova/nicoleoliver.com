@@ -90,6 +90,10 @@ h2{
 .nav-pills>.active>a:hover{
 	text-decoration:underline;
 }
+.nav-tabs>li>a, .nav-pills>li>a{
+	padding-left:11px;
+	padding-right:11px;	
+}
 .masthead h3 {
 	margin-left: 40px;
 	margin-top: 20px;

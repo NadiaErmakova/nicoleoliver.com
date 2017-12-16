@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en"><!-- InstanceBegin template="/Templates/MainTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Nicole Oliver</title>
+<!-- InstanceEndEditable -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="bootstrap/2.3.2/responsive/css/bootstrap.min.css"  rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head> 
+<body>
+<div class="container-fluid">
+
+	<div class="main">  
+        <div class="masthead">
+            <h3 class="muted logo">Nicole Oliver</h3>
+            
+            <ul class="nav nav-pills pull-right">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="media.html">media</a></li>
+                    <li><a href="gallery_new.html">gallery</a></li>
+                    <li><a href="oncamera.html">on camera</a></li>
+                    <li><a href="animation.html">animation</a></li>
+                    <li><a href="voiceover.html">voice over</a></li>
+                    <li><a href="charity.html">charity</a></li>
+                    <li><a href="audiobooks.html">audiobooks</a></li>
+                    <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+      
+		<div class="main-content">
+<!-- InstanceBeginEditable name="body" -->
+
+    <div class="row-fluid">
+      <div class="span12">
+        <h1>Audiobooks</h1>
+        <hr/>
+ 
+        <div class="well voice">
+            <audio controls>
+              <source src="audio/talking_books_demo_nicole_oliver.ogg" type="audio/ogg">
+              <source src="audio/talking_books_demo_nicole_oliver.mp3" type="audio/mpeg">
+              <embed src="audio/talking_books_demo_nicole_oliver.mp3" width="255" height="32"></embed> 	
+            </audio>
+            <a href="audio/talking_books_demo_nicole_oliver.mp3">
+                <p>Download Talking Books Demo (mp3 - 4.5mb download)</p>
+            </a>
+		</div>
+
+      	<p>Please note: the demo and content there is produced for demo purposes only and does not represent excerpts from actual performed audiobooks. Thank you to Cea Sunrise Person for permission to read from Nearly Normal.</p>
+
+         <br/><br/><br/>
+
+                    
+        </div>
+     </div>
+
+         <hr/>
+
+
+
+<!-- InstanceEndEditable -->
+        </div>
+
+        <div class="footer">
+            <p>&copy; Nicole Oliver 2017 </p>
+            <p>Developed by <a href="http://www.ermakova.ca/" target="_blank" style="color:#633">Nadia Ermakova</a></p>
+        </div>
+        
+    </div>
+</div>
+<div id="main-left-shadow"></div>
+<div id="main-right-shadow"></div>
+</body>
+
+<script>
+$(function(){
+	function fixShadow(){
+		var win = $(window);
+		var root = $(document.documentElement);
+		var bodyElm = $(document.body);
+		var main = $(".main");
+		var height = Math.max(Math.max(win.height(), root.height()), bodyElm.height());
+		var width = Math.floor((root.width() - main.width()) / 2);
+		$("#main-left-shadow").css({width: width, height: height,visibility: "visible"});
+		$("#main-right-shadow").css({width: width, height: height,visibility: "visible"});
+	}
+	fixShadow();
+	setTimeout(fixShadow, 500);
+	setTimeout(fixShadow, 5000);
+	
+});
+</script>
+<!-- InstanceBeginEditable name="footerscripts" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceEnd --></html>
