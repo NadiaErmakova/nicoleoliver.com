@@ -42,8 +42,16 @@
 						</a>
 						<div class="caption">
 							<h3>Nancy Drrew</h3>
-						</div>
+						</div>dragon_prince
 					</article>			
+					<article>
+						<a href="https://www.imdb.com/title/tt8688814" target="_blank" class="image">
+							<img src="images/gallery/thumbs/dragon_prince.jpg" alt="" />
+						</a>
+						<div class="caption">
+							<h3>The Dragon Prince</h3>
+						</div>
+					</article>
 					<article>
 						<a href="https://www.imdb.com/title/tt5328006" target="_blank" class="image">
 							<img src="images/gallery/thumbs/phil.jpg" alt="" />
@@ -152,8 +160,7 @@
 						<li><a href="https://twitter.com/mouthnoize" class="icon brands style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 						<li><a href="https://www.instagram.com/noliver77/" class="icon brands style2 fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 						<li><a href="https://www.imdb.com/name/nm0646955/" class="icon brands style2 fa-imdb" target="_blank"><span class="label">IMDb</span></a></li>
-						<li><a href="https://www.cameo.com/nicoleoliver?qid=1667422887" class="icon brands style2 fa-cameo" target="_blank"><span class="label">Cameo</span></a></li>
-
+						<li><a href="https://www.imdb.com/name/nm0646955/" class="icon brands style2 fa-imdb" target="_blank"><span class="label">IMDb</span></a></li>
 					</ul>
 					<p>&copy; Copyright 2022. All Rights Reserved. www.NicoleOliver.com</p>
 				</div>
